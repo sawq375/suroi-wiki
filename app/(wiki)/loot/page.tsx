@@ -9,7 +9,7 @@ import TableWithHeader from "@/components/tables/TableWithHeader";
 export default function LootPage() {
   return (
     <div className="col-span-8 text-white">
-      <div className="prose prose-invert">
+      <div className="prose ">
         <h1>Loot Tables</h1>
         <p>
           Loot Tables are lists of items that determine the possible drops from
@@ -44,7 +44,7 @@ export default function LootPage() {
         ))}
       </div>
       <div className="mt-8">
-        <div className="prose prose-invert">
+        <div className="prose ">
           <h2>Loot Tables</h2>
           <p>
             These tables determine which loot tiers to use for a given obstacle.
@@ -74,7 +74,7 @@ export default function LootPage() {
         </div>
       ))}
       <div className="mt-8">
-        <div className="prose prose-invert" id="calc">
+        <div className="prose " id="calc">
           <h2>Calculator</h2>
           <p>
             Use this interactive calculator to determine the chance of an item

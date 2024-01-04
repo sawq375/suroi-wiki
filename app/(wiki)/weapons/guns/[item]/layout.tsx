@@ -21,14 +21,14 @@ export default function GunLayout({
 
   return (
     <>
-      <div className="col-span-4 lg:col-span-6 prose prose-invert">
+      <div className="col-span-4 lg:col-span-6 prose ">
         <h1 className="hidden sm:block">{gun.name}</h1>
         {children}
         <GunGraphButton gun={gun} />
       </div>
       <GunSidebar gun={gun} explosion={explosion} />
       {/* here because reverse flex-col */}
-      <div className="prose prose-invert sm:hidden">
+      <div className="prose  sm:hidden">
         <h1>{gun.name}</h1>
       </div>
     </>

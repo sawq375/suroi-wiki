@@ -25,7 +25,7 @@ const helmet1 = Helmets[1];
 export default function ArmorPage() {
   return (
     <main className="col-span-8 text-white">
-      <div className="prose prose-invert">
+      <div className="prose ">
         <h1>Armor</h1>
         <p>
           There are currently {Vests.length + Helmets.length} unique pieces of
@@ -135,7 +135,9 @@ export default function ArmorPage() {
                   ).toFixed(0) + "%"}
                 </div>
                 <div>
-                  <b><abbr title="Effective Health">EHP</abbr>:</b>{" "}
+                  <b>
+                    <abbr title="Effective Health">EHP</abbr>:
+                  </b>{" "}
                   {(
                     100 /
                     (1 - helmet.damageReduction - vest.damageReduction)
@@ -148,7 +150,7 @@ export default function ArmorPage() {
       </div>
 
       <div className="mt-8">
-        <div className="prose prose-invert" id="calc">
+        <div className="prose " id="calc">
           <h2>Calculator</h2>
           <p>
             Use this interactive calculator to determine how many shots it would

@@ -1,3 +1,5 @@
+const UnoCSS = require("@unocss/webpack").default;
+
 const withMDX = require("@next/mdx")({
   options: {},
 });
@@ -24,6 +26,12 @@ const nextConfig = {
         hostname: "invidious.projectsegfau.lt",
       },
     ],
+  },
+
+  webpack: (config) => {
+    config.plugins.push(UnoCSS());
+    config.cache = false;
+    return config;
   },
 
   typescript: {

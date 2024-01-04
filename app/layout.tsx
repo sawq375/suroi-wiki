@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
+import "@unocss/reset/tailwind.css";
 import "./globals.css";
+import "uno.css";
 import TanstackQuery from "@/components/providers/TanstackQuery";
 import NavigationBar from "@/components/interactive/NavigationBar";
 import Footer from "@/components/layouts/Footer";

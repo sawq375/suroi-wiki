@@ -9,7 +9,7 @@ import PageCard from "@/components/cards/PageCard";
 export default function HealingPage() {
   return (
     <main className="col-span-8 text-white">
-      <div className="prose prose-invert">
+      <div className="prose ">
         <h1>Healing Items</h1>
         <p>
           There are currently {HealingItems.definitions.length} healing items in

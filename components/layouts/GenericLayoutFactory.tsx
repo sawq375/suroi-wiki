@@ -24,13 +24,13 @@ export default function GenericLayoutFactory<T extends ObjectDefinition>(
 
     return (
       <>
-        <div className="col-span-4 lg:col-span-6 prose prose-invert">
+        <div className="col-span-4 lg:col-span-6 prose ">
           <h1 className="hidden sm:block">{item.name}</h1>
           {children}
         </div>
         <args.Sidebar item={item} />
         {/* here because reverse flex-col */}
-        <div className="prose prose-invert sm:hidden">
+        <div className="prose  sm:hidden">
           <h1>{item.name}</h1>
         </div>
       </>

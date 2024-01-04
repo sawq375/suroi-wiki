@@ -10,7 +10,7 @@ export default function GenericListingPageFactory(
   return function GenericListingPage() {
     return (
       <main className="col-span-8 text-white">
-        <div className="prose prose-invert">
+        <div className="prose ">
           <h1>{name}</h1>
           {description && <p>{description}</p>}
         </div>

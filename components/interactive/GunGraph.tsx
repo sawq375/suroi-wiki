@@ -56,7 +56,7 @@ export default function GunGraph({ gun }: GunGraphProps) {
   }));
 
   return (
-    <div className="prose prose-invert">
+    <div className="prose ">
       <p>
         This test assumes that the target isn{"'"}t moving and the gun is aiming
         dead center on the target.

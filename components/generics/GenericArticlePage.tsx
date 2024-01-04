@@ -90,7 +90,7 @@ export default function GenericArticlePage<T extends ObjectDefinition>(
 
     return (
       <>
-        <div className="col-span-4 lg:col-span-6 prose prose-invert">
+        <div className="col-span-4 lg:col-span-6 prose ">
           <h1 className="hidden sm:block">
             {item?.name ?? combinedArticle?.title}
           </h1>
@@ -114,7 +114,7 @@ export default function GenericArticlePage<T extends ObjectDefinition>(
           </MultiSidebar>
         )}
         {/* here because reverse flex-col */}
-        <div className="prose prose-invert sm:hidden">
+        <div className="prose  sm:hidden">
           <h1>{item?.name ?? combinedArticle?.title}</h1>
         </div>
       </>

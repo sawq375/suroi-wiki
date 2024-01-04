@@ -10,7 +10,7 @@ import Dropdown from "@/components/interactive/Dropdown";
 export default function WeaponsPage() {
   return (
     <main className="col-span-8 text-white">
-      <div className="prose prose-invert">
+      <div className="prose ">
         <h1>Weapons</h1>
         <p>
           There are currently <Link href="#guns">{Guns.length} guns</Link> in
@@ -21,7 +21,7 @@ export default function WeaponsPage() {
       </div>
       <Dropdown
         label={
-          <div className="prose prose-invert">
+          <div className="prose ">
             <h2 id="guns">Guns</h2>
           </div>
         }
@@ -43,7 +43,7 @@ export default function WeaponsPage() {
       </Dropdown>
       <Dropdown
         label={
-          <div className="prose prose-invert">
+          <div className="prose ">
             <h2 id="melees">Melees</h2>
           </div>
         }
@@ -63,7 +63,7 @@ export default function WeaponsPage() {
       </Dropdown>
       <Dropdown
         label={
-          <div className="prose prose-invert">
+          <div className="prose ">
             <h2 id="throwables">Throwables</h2>
           </div>
         }
