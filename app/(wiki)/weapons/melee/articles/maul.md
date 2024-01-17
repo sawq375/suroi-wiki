@@ -26,3 +26,7 @@ The maul can only be obtained from the maul mount in the [Armory Center](/buildi
 # Trivia
 
 # History
+
+
+ - v0.15.0
+  - Maul was added to the game 
